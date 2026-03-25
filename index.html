@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fxpilot — Follow professional forex traders and grow your account smarter with copy trading." />
+  <title>Fxpilot Copy Trading Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── TICKER ── -->
+  <div class="ticker-bar" aria-hidden="true">
+    <div class="ticker-track" id="tickerTrack">
+      <span>EUR/USD <em class="up">▲ 1.0842</em></span>
+      <span>GBP/USD <em class="up">▲ 1.2671</em></span>
+      <span>USD/JPY <em class="dn">▼ 149.32</em></span>
+      <span>AUD/USD <em class="up">▲ 0.6523</em></span>
+      <span>USD/CAD <em class="dn">▼ 1.3601</em></span>
+      <span>NZD/USD <em class="up">▲ 0.5988</em></span>
+      <span>USD/CHF <em class="dn">▼ 0.8941</em></span>
+      <span>EUR/GBP <em class="up">▲ 0.8558</em></span>
+      <span>XAU/USD <em class="up">▲ 2318.40</em></span>
+      <span>USD/NGN <em class="dn">▼ 1548.00</em></span>
+      <!-- duplicated for seamless loop -->
+      <span>EUR/USD <em class="up">▲ 1.0842</em></span>
+      <span>GBP/USD <em class="up">▲ 1.2671</em></span>
+      <span>USD/JPY <em class="dn">▼ 149.32</em></span>
+      <span>AUD/USD <em class="up">▲ 0.6523</em></span>
+      <span>USD/CAD <em class="dn">▼ 1.3601</em></span>
+      <span>NZD/USD <em class="up">▲ 0.5988</em></span>
+      <span>USD/CHF <em class="dn">▼ 0.8941</em></span>
+      <span>EUR/GBP <em class="up">▲ 0.8558</em></span>
+      <span>XAU/USD <em class="up">▲ 2318.40</em></span>
+      <span>USD/NGN <em class="dn">▼ 1548.00</em></span>
+    </div>
+  </div>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo" aria-label="Fxpilot home">
+        <span class="logo-fx">FX</span><span class="logo-pilot">PILOT</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#copy-trading">Copy Trading</a></li>
+        <li><a href="#who">Who It's For</a></li>
+        <li><a href="#steps">Get Started</a></li>
+        <li><a href="https://chat.whatsapp.com/KhwhCPFg46B22ECuRP6bP3?mode=gi_t" target="_blank" rel="noopener noreferrer" class="nav-cta">Join Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-label reveal">
+          <span class="pulse-dot"></span> Live Copy Trading Join Today
+        </div>
+        <h1 class="hero-title reveal delay-1">
+          Stop Struggling<br />In Forex<br /><span class="hl">Alone.</span>
+        </h1>
+        <p class="hero-sub reveal delay-2">
+          Follow Professional Traders and Grow Your Account Smarter
+        </p>
+        <p class="hero-desc reveal delay-3">
+          You don't have to master charts or trade all day to participate in the forex market.
+          With our copy trading system, you can follow experienced traders and trade with guidance.
+        </p>
+        <div class="hero-actions reveal delay-4">
+          <a href="https://chat.whatsapp.com/KhwhCPFg46B22ECuRP6bP3?mode=gi_t" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+            Join Copy Trading
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18"><line x1="4" y1="10" x2="16" y2="10"/><polyline points="10 4 16 10 10 16"/></svg>
+          </a>
+          <a href="#copy-trading" class="btn btn-ghost btn-lg">Learn More</a>
+        </div>
+        <div class="hero-stats reveal delay-4">
+          <div class="stat">
+            <strong>500+</strong>
+            <span>Active Traders</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>24/7</strong>
+            <span>Market Access</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Automated Copies</span>
+          </div>
+        </div>
+      </div>
+      <!-- Decorative chart lines -->
+      <svg class="hero-chart" viewBox="0 0 900 200" preserveAspectRatio="none" aria-hidden="true">
+        <polyline class="chart-line" points="0,160 80,140 160,155 240,100 320,115 400,60 480,80 560,45 640,70 720,30 800,50 900,20" />
+        <polyline class="chart-fill" points="0,160 80,140 160,155 240,100 320,115 400,60 480,80 560,45 640,70 720,30 800,50 900,20 900,200 0,200" />
+      </svg>
+    </section>
+
+    <!-- ── PROBLEM ── -->
+    <section class="section problem-section" id="problem">
+      <div class="container">
+        <div class="section-label reveal">The Reality</div>
+        <h2 class="section-title reveal delay-1">Why Many Forex Traders Quit</h2>
+        <p class="section-desc reveal delay-2">
+          Many people start forex trading with excitement but later face the same painful cycle.
+        </p>
+        <div class="problems-grid">
+          <div class="problem-card reveal delay-1">
+            <div class="problem-icon">💥</div>
+            <h3>Blown Accounts</h3>
+            <p>One bad trade wipes weeks of gains. Without guidance, risk management becomes guesswork.</p>
+          </div>
+          <div class="problem-card reveal delay-2">
+            <div class="problem-icon">📉</div>
+            <h3>Confusing Strategies</h3>
+            <p>Too many indicators, conflicting signals, and analysis paralysis stops progress cold.</p>
+          </div>
+          <div class="problem-card reveal delay-3">
+            <div class="problem-icon">⚠️</div>
+            <h3>Fake Signal Groups</h3>
+            <p>Paid Telegram groups that promise profits but deliver nothing but losses and excuses.</p>
+          </div>
+          <div class="problem-card reveal delay-4">
+            <div class="problem-icon">🚫</div>
+            <h3>No Real Mentorship</h3>
+            <p>Trading alone with no accountability, no community, and no one to learn from.</p>
+          </div>
+        </div>
+        <div class="problem-solution reveal">
+          <div class="solution-line"></div>
+          <p>Forex becomes easier when you have the <strong>right system and community.</strong></p>
+          <div class="solution-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+              <span class="terminal-title">fxpilot_dashboard</span>
+            </div>
+            <div class="terminal-body">
+              <div class="t-row"><span class="t-key">status</span><span class="t-val green">● LIVE</span></div>
+              <div class="t-row"><span class="t-key">mode</span><span class="t-val">copy_trading</span></div>
+              <div class="t-row"><span class="t-key">trades_copied</span><span class="t-val green">2,841</span></div>
+              <div class="t-row"><span class="t-key">community</span><span class="t-val green">active</span></div>
+              <div class="t-row"><span class="t-key">mentors</span><span class="t-val">professional</span></div>
+              <div class="t-row"><span class="t-key">setup</span><span class="t-val green">beginner_ready</span></div>
+              <div class="t-row blink-row"><span class="t-cursor">▮</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="section-label reveal">Our Community</div>
+          <h2 class="section-title reveal delay-1">Welcome to Fxpilot</h2>
+          <p class="section-desc reveal delay-2">
+            Fxpilot is a community designed to help traders grow and stop trading in the dark.
+          </p>
+          <ul class="check-list reveal delay-3">
+            <li><span class="check">✔</span> Copy trading opportunities</li>
+            <li><span class="check">✔</span> Professional trader guidance</li>
+            <li><span class="check">✔</span> Beginner friendly setup</li>
+            <li><span class="check">✔</span> Supportive trading community</li>
+          </ul>
+          <p class="about-close reveal delay-4">
+            Instead of trading alone, you become part of a community focused on <strong>profitable trading.</strong>
+          </p>
+          <a href="https://chat.whatsapp.com/KhwhCPFg46B22ECuRP6bP3?mode=gi_t" target="_blank" rel="noopener noreferrer" class="btn btn-primary reveal delay-4">Join Copy Trading</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── COPY TRADING ── -->
+    <section class="section copy-section" id="copy-trading">
+      <div class="container">
+        <div class="section-label reveal">How It Works</div>
+        <h2 class="section-title reveal delay-1">Copy Trading Made Simple</h2>
+        <p class="section-desc reveal delay-2">
+          If you don't want to analyze charts yourself, you can copy trades from experienced traders.
+          When a professional trader opens a trade, the same trade reflects in your account automatically.
+        </p>
+        <div class="copy-flow reveal delay-2">
+          <div class="flow-step">
+            <div class="flow-icon">👨‍💼</div>
+            <p>Pro Trader opens a trade</p>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-step">
+            <div class="flow-icon">⚡</div>
+            <p>System mirrors it instantly</p>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-step">
+            <div class="flow-icon">📈</div>
+            <p>Your account grows too</p>
+          </div>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card reveal delay-1">
+            <div class="benefit-num">01</div>
+            <h3>Beginner Friendly</h3>
+            <p>No experience needed. The system handles the technical side for you.</p>
+          </div>
+          <div class="benefit-card reveal delay-2">
+            <div class="benefit-num">02</div>
+            <h3>Saves Time</h3>
+            <p>No hours staring at charts. Live your life while trades execute.</p>
+          </div>
+          <div class="benefit-card reveal delay-3">
+            <div class="benefit-num">03</div>
+            <h3>Professional Guidance</h3>
+            <p>Follow traders with a proven track record, not random Telegram signals.</p>
+          </div>
+          <div class="benefit-card reveal delay-4">
+            <div class="benefit-num">04</div>
+            <h3>Automated Trades</h3>
+            <p>Trades copy automatically with no manual input required from you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WHO ── -->
+    <section class="section who-section" id="who">
+      <div class="container">
+        <div class="section-label reveal">Perfect For</div>
+        <h2 class="section-title reveal delay-1">This Community Is Built For You</h2>
+        <div class="who-grid">
+          <div class="who-card reveal delay-1">
+            <div class="who-icon">🎓</div>
+            <h3>Beginners</h3>
+            <p>Who want to start forex the right way with structure, guidance, and a real community.</p>
+          </div>
+          <div class="who-card reveal delay-2">
+            <div class="who-icon">😤</div>
+            <h3>Frustrated Traders</h3>
+            <p>Tired of losing money alone with no clear direction, strategy, or support system.</p>
+          </div>
+          <div class="who-card reveal delay-3">
+            <div class="who-icon">⏰</div>
+            <h3>Busy Individuals</h3>
+            <p>Who want passive exposure to forex without watching charts all day.</p>
+          </div>
+          <div class="who-card reveal delay-4">
+            <div class="who-icon">🧠</div>
+            <h3>Growth-Seekers</h3>
+            <p>Anyone who wants real mentorship, accountability, and a community behind them.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── STEPS ── -->
+    <section class="section steps-section" id="steps">
+      <div class="container">
+        <div class="section-label reveal">Simple Process</div>
+        <h2 class="section-title reveal delay-1">How To Get Started</h2>
+        <p class="section-desc reveal delay-2">Three steps to join the community and start copy trading today.</p>
+        <div class="steps-list">
+          <div class="step reveal delay-1">
+            <div class="step-num">01</div>
+            <div class="step-connector" aria-hidden="true"></div>
+            <div class="step-body">
+              <h3>Create a Trading Account</h3>
+              <p>Sign up with our recommended broker using our link. It's free and takes under 5 minutes.</p>
+            </div>
+          </div>
+          <div class="step reveal delay-2">
+            <div class="step-num">02</div>
+            <div class="step-connector" aria-hidden="true"></div>
+            <div class="step-body">
+              <h3>Fund Your Trading Account</h3>
+              <p>Deposit your preferred amount to activate your live trading account and start copying.</p>
+            </div>
+          </div>
+          <div class="step reveal delay-3">
+            <div class="step-num">03</div>
+            <div class="step-body">
+              <h3>Join the VIP Community</h3>
+              <p>Get access to copy trading, mentorship, and the full Fxpilot community. You're live.</p>
+            </div>
+          </div>
+        </div>
+        <div class="steps-cta reveal delay-4">
+          <a href="https://chat.whatsapp.com/KhwhCPFg46B22ECuRP6bP3?mode=gi_t" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Start Now — It's Simple</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FINAL CTA ── -->
+    <section class="section cta-section" id="cta">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <div class="container cta-inner">
+        <div class="cta-label reveal">Ready?</div>
+        <h2 class="cta-title reveal delay-1">
+          Start Trading With Guidance<br />Instead of Guessing
+        </h2>
+        <p class="cta-sub reveal delay-2">
+          Join the Fxpilot community today and copy trades from professional traders automatically.
+        </p>
+        <a href="https://chat.whatsapp.com/KhwhCPFg46B22ECuRP6bP3?mode=gi_t" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-xl reveal delay-3">
+          Join Fxpilot Now
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20"><line x1="4" y1="10" x2="16" y2="10"/><polyline points="10 4 16 10 10 16"/></svg>
+        </a>
+        <div class="contact-row reveal delay-4">
+          <a href="tel:09036958324" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.67 19.79 19.79 0 01.08 1.05 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            0903 695 8324
+          </a>
+          <span class="contact-sep">·</span>
+          <a href="mailto:Yourfxpilot@gmail.com" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Yourfxpilot@gmail.com
+          </a>
+        </div>
+        <p class="cta-disclaimer reveal delay-4">
+          ⚠ Trading involves risk. Only trade with funds you can afford to lose.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo"><span class="logo-fx">FX</span><span class="logo-pilot">PILOT</span></a>
+      <p>© 2026 Fxpilot. All rights reserved.</p>
+      <div class="footer-contact">
+        <a href="tel:09036958324">0903 695 8324</a>
+        <span>·</span>
+        <a href="mailto:Yourfxpilot@gmail.com">Yourfxpilot@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA (mobile) -->
+  <a href="https://chat.whatsapp.com/KhwhCPFg46B22ECuRP6bP3?mode=gi_t" target="_blank" rel="noopener noreferrer" class="floating-cta" id="floatingCta" aria-label="Join Copy Trading">
+    Join Copy Trading ↑
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
+  
